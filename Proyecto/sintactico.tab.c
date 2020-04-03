@@ -1720,8 +1720,14 @@ yyreduce:
   YY_REDUCE_PRINT (yyn);
   switch (yyn)
     {
-      
-#line 1725 "sintactico.tab.c" /* yacc.c:1646  */
+        case 133:
+#line 265 "sintactico.y" /* yacc.c:1646  */
+    { printf("soy un identificador! \n"); }
+#line 1727 "sintactico.tab.c" /* yacc.c:1646  */
+    break;
+
+
+#line 1731 "sintactico.tab.c" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
