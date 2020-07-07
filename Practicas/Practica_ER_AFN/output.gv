@@ -1,0 +1,26 @@
+digraph automata { 					
+   rankdir=LR;                         					
+ {     													
+     node [fontsize=20 width=0.5 shape=circle]  		
+ 1 [fixedsize=shape fixedsize=true] 					
+ 2 [fixedsize=shape fixedsize=true] 					
+ 3 [fixedsize=shape fixedsize=true] 					
+ 4 [fixedsize=shape fixedsize=true] 					
+ 5 [fixedsize=shape fixedsize=true] 					
+ 6 [fixedsize=shape fixedsize=true  shape=doublecircle] 
+     inicio [shape=point width=0.1] 					
+   } 													
+ inicio -> 1 [label="inicio"];                        
+
+1 -> 2 [label="&#949;"];
+1 -> 7 [label="&#949;"];
+2 -> 3 [label="&#949;"];
+2 -> 6 [label="&#949;"];
+3 -> 4 [label="a"];
+4 -> 5 [label="b"];
+5 -> 3 [label="&#949;"];
+5 -> 6 [label="&#949;"];
+6 -> 9 [label="&#949;"];
+7 -> 8 [label="c"];
+8 -> 9 [label="&#949;"];
+} 
