@@ -8,7 +8,7 @@ int main(){
 
 	AFN a = unSimbolo('a');
 	AFN b = unSimbolo('b');
-    AFN c = unSimbolo('c');
+    	AFN c = unSimbolo('c');
 
 	AFN afn_resultado;
 	
